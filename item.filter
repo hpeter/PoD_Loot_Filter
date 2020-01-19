@@ -5,7 +5,7 @@
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-// Last Updated: 2020-1-13
+// Last Updated: 2020-1-18
 // To Be Used with Patch: #17 - Tourmaline
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Notes ▬▬▬▬▬                                       ║
@@ -183,39 +183,39 @@ ItemDisplay[skz]: %GRAY%||||%GOLD%Perfect%GRAY%||||%WHITE%
 // Orange Rune Number: Mal, Ist, Gul
 // Green Rune Number: Vex, Ohm, Lo, Sur, Ber, Jah, Cham, Zod
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[r01]: %GOLD%El%GRAY%[1]%WHITE%
-ItemDisplay[r02]: %GOLD%Eld%GRAY%[2]%WHITE%
-ItemDisplay[r03]: %GOLD%Tir%GRAY%[3]%WHITE%
-ItemDisplay[r04]: %GOLD%Nef%GRAY%[4]%WHITE%
-ItemDisplay[r05]: %GOLD%Eth%GRAY%[5]%WHITE%
-ItemDisplay[r06]: %GOLD%Ith%GRAY%[6]%WHITE%
-ItemDisplay[r07]: %GOLD%Tal%GRAY%[7]%WHITE%
-ItemDisplay[r08]: %GOLD%Ral%GRAY%[8]%WHITE%
-ItemDisplay[r09]: %GOLD%Ort%GRAY%[9]%WHITE%
-ItemDisplay[r10]: %GOLD%Thul%GRAY%[10]%WHITE%
-ItemDisplay[r11]: %GOLD%Amn%GRAY%[11]%WHITE%
-ItemDisplay[r12]: %GOLD%Sol%GRAY%[12]%WHITE%
-ItemDisplay[r13]: %GOLD%Shael%WHITE%[13]%WHITE%
-ItemDisplay[r14]: %GOLD%Dol%WHITE%[14]%WHITE%
-ItemDisplay[r15]: %GOLD%Hel%WHITE%[15]%WHITE%
-ItemDisplay[r16]: %GOLD%Io%WHITE%[16]%WHITE%
-ItemDisplay[r17]: %GOLD%Lum%WHITE%[17]%WHITE%
-ItemDisplay[r18]: %GOLD%Ko%WHITE%[18]%WHITE%
-ItemDisplay[r19]: %GOLD%Fal%WHITE%[19]%WHITE%
-ItemDisplay[r20]: %GOLD%Lem%YELLOW%[20]%YELLOW%
-ItemDisplay[r21]: %GOLD%Pul%YELLOW%[21]%YELLOW%
-ItemDisplay[r22]: %GOLD%Um%YELLOW%[22]%YELLOW%
-ItemDisplay[r23]: %GOLD%Mal%ORANGE%[23]%WHITE%
-ItemDisplay[r24]: %GOLD%Ist%ORANGE%[24]%WHITE%
-ItemDisplay[r25]: %GOLD%Gul%ORANGE%[25]%WHITE%
-ItemDisplay[r26]: %GOLD%Vex%GREEN%[26]%WHITE%
-ItemDisplay[r27]: %GOLD%Ohm%GREEN%[27]%WHITE%
-ItemDisplay[r28]: %GOLD%Lo%GREEN%[28]%WHITE%
-ItemDisplay[r29]: %GOLD%Sur%GREEN%[29]%WHITE%
-ItemDisplay[r30]: %GOLD%Ber%GREEN%[30]%WHITE%
-ItemDisplay[r31]: %GOLD%Jah%GREEN%[31]%WHITE%
-ItemDisplay[r32]: %GOLD%Cham%GREEN%[32]%WHITE%
-ItemDisplay[r33]: %GOLD%Zod%GREEN%[33]%WHITE%
+ItemDisplay[r01]: %ORANGE%El%GRAY%[1]%WHITE%
+ItemDisplay[r02]: %ORANGE%Eld%GRAY%[2]%WHITE%
+ItemDisplay[r03]: %ORANGE%Tir%GRAY%[3]%WHITE%
+ItemDisplay[r04]: %ORANGE%Nef%GRAY%[4]%WHITE%
+ItemDisplay[r05]: %ORANGE%Eth%GRAY%[5]%WHITE%
+ItemDisplay[r06]: %ORANGE%Ith%GRAY%[6]%WHITE%
+ItemDisplay[r07]: %ORANGE%Tal%GRAY%[7]%WHITE%
+ItemDisplay[r08]: %ORANGE%Ral%GRAY%[8]%WHITE%
+ItemDisplay[r09]: %ORANGE%Ort%GRAY%[9]%WHITE%
+ItemDisplay[r10]: %ORANGE%Thul%GRAY%[10]%WHITE%
+ItemDisplay[r11]: %ORANGE%Amn%GRAY%[11]%WHITE%
+ItemDisplay[r12]: %ORANGE%Sol%GRAY%[12]%WHITE%
+ItemDisplay[r13]: %ORANGE%Shael%WHITE%[13]%WHITE%
+ItemDisplay[r14]: %ORANGE%Dol%WHITE%[14]%WHITE%
+ItemDisplay[r15]: %ORANGE%Hel%WHITE%[15]%WHITE%
+ItemDisplay[r16]: %ORANGE%Io%WHITE%[16]%WHITE%
+ItemDisplay[r17]: %ORANGE%Lum%WHITE%[17]%WHITE%
+ItemDisplay[r18]: %ORANGE%Ko%WHITE%[18]%WHITE%
+ItemDisplay[r19]: %ORANGE%Fal%WHITE%[19]%WHITE%
+ItemDisplay[r20]: %ORANGE%Lem%YELLOW%[20]%WHITE%
+ItemDisplay[r21]: %ORANGE%Pul%YELLOW%[21]%WHITE%
+ItemDisplay[r22]: %ORANGE%Um%YELLOW%[22]%WHITE%
+ItemDisplay[r23]: %ORANGE%Mal[23]%WHITE%
+ItemDisplay[r24]: %ORANGE%Ist[24]%WHITE%
+ItemDisplay[r25]: %ORANGE%Gul[25]%WHITE%
+ItemDisplay[r26]: %ORANGE%Vex%GREEN%[26]%WHITE%
+ItemDisplay[r27]: %ORANGE%Ohm%GREEN%[27]%WHITE%
+ItemDisplay[r28]: %ORANGE%Lo%GREEN%[28]%WHITE%
+ItemDisplay[r29]: %ORANGE%Sur%GREEN%[29]%WHITE%
+ItemDisplay[r30]: %ORANGE%Ber%GREEN%[30]%WHITE%
+ItemDisplay[r31]: %ORANGE%Jah%GREEN%[31]%WHITE%
+ItemDisplay[r32]: %ORANGE%Cham%GREEN%[32]%WHITE%
+ItemDisplay[r33]: %ORANGE%Zod%GREEN%[33]%WHITE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                     ▬▬▬▬▬ Town Portal and ID Scrolls/Tomes and Keys ▬▬▬▬▬                     ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -229,12 +229,12 @@ ItemDisplay[key]: %NAME%
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // [Optional] Use potion names that are a compact version of standard/vanilla D2's names.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[hp1]: %RED%[%WHITE%Lesser Healing%RED%]%WHITE%
+//ItemDisplay[hp1]: %RED%[%WHITE%Minor Healing%RED%]%WHITE%
 //ItemDisplay[hp2]: %RED%[%WHITE%Light Healing%RED%]%WHITE%
 //ItemDisplay[hp3]: %RED%[%WHITE%Healing%RED%]%WHITE%
 //ItemDisplay[hp4]: %RED%[%WHITE%Great Healing%RED%]%WHITE%
 //ItemDisplay[hp5]: %RED%[%WHITE%Super Healing%RED%]%WHITE%
-//ItemDisplay[mp1]: %BLUE%[%WHITE%Lesser Mana%BLUE%]%WHITE%
+//ItemDisplay[mp1]: %BLUE%[%WHITE%Minor Mana%BLUE%]%WHITE%
 //ItemDisplay[mp2]: %BLUE%[%WHITE%Light Mana%BLUE%]%WHITE%
 //ItemDisplay[mp3]: %BLUE%[%WHITE%Mana%BLUE%]%WHITE%
 //ItemDisplay[mp4]: %BLUE%[%WHITE%Great Mana%BLUE%]%WHITE%
@@ -270,45 +270,45 @@ ItemDisplay[gps]: %NAME%%WHITE%[%PRICE% %GOLD%G%WHITE%]
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // Pandemonium Keys
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[pk1]: %GOLD%%NAME%%WHITE% //Key of Terror
-ItemDisplay[pk2]: %GOLD%%NAME%%WHITE% //Key of Hate
-ItemDisplay[pk3]: %GOLD%%NAME%%WHITE% //Key of Destruction
+ItemDisplay[pk1]: %NAME% //Key of Terror
+ItemDisplay[pk2]: %NAME% //Key of Hate
+ItemDisplay[pk3]: %NAME% //Key of Destruction
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Token of Absolution + Essences
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[toa]: %GOLD%%NAME%%WHITE% //Token of Absolution
-ItemDisplay[tes]: %GOLD%%NAME%%WHITE% //Twisted Essence
-ItemDisplay[ceh]: %GOLD%%NAME%%WHITE% //Charged Essence
-ItemDisplay[bet]: %GOLD%%NAME%%WHITE% //Burning Essence
-ItemDisplay[fed]: %GOLD%%NAME%%WHITE% //Festering Essence
+ItemDisplay[toa]: %NAME% //Token of Absolution
+ItemDisplay[tes]: %NAME% //Twisted Essence
+ItemDisplay[ceh]: %NAME% //Charged Essence
+ItemDisplay[bet]: %NAME% //Burning Essence
+ItemDisplay[fed]: %NAME% //Festering Essence
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Prime Evil Organs
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[dhn]: %GOLD%%NAME%%WHITE% //Diablo's Horn
-ItemDisplay[bey]: %GOLD%%NAME%%WHITE% //Baal's Eye
-ItemDisplay[mbr]: %GOLD%%NAME%%WHITE% //Mephisto's Brain
+ItemDisplay[dhn]: %NAME% //Diablo's Horn
+ItemDisplay[bey]: %NAME% //Baal's Eye
+ItemDisplay[mbr]: %NAME% //Mephisto's Brain
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Other Special Items
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ear]: %GOLD%%NAME%%WHITE% //Player Ear
-ItemDisplay[std]: %GOLD%%NAME%%WHITE% //Standard of Heroes
+ItemDisplay[ear]: %NAME% //Player Ear
+ItemDisplay[std]: %NAME% //Standard of Heroes
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                ▬▬▬▬▬ PoD Specific Items ▬▬▬▬▬                                 ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[cx5]: %PURPLE%%NAME%%WHITE% //Orb of Corruption
-ItemDisplay[cx6]: %GOLD%%NAME%%WHITE% //Diablo's Soulstone
-ItemDisplay[cx7]: %GOLD%%NAME%%WHITE% //Key of Chaos
+ItemDisplay[cx5]: %NAME% //Orb of Corruption
+ItemDisplay[cx6]: %NAME% //Diablo's Soulstone
+ItemDisplay[cx7]: %NAME% //Key of Chaos
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Relics
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[ma4 !ID]: %GOLD%%NAME%%WHITE%
-ItemDisplay[ma4 ID]: %GOLD%%NAME% - Tier 1%WHITE%
-ItemDisplay[ma5 !ID]: %GOLD%%NAME%%WHITE%
-ItemDisplay[ma5 ID]: %GOLD%%NAME% - Tier 2%WHITE%
-ItemDisplay[ma6 !ID]: %GOLD%%NAME%%WHITE%
-ItemDisplay[ma6 ID]: %GOLD%%NAME% - Tier 3%WHITE%
-ItemDisplay[ma2 !ID]: %GOLD%%NAME%%WHITE%
-ItemDisplay[ma2 ID]: %GOLD%%NAME% - Tier 4%WHITE%
+ItemDisplay[ma4 !ID]: %NAME%
+ItemDisplay[ma4 ID]: %NAME% - Tier 1
+ItemDisplay[ma5 !ID]: %NAME%
+ItemDisplay[ma5 ID]: %NAME% - Tier 2
+ItemDisplay[ma6 !ID]: %NAME%
+ItemDisplay[ma6 ID]: %NAME% - Tier 3
+ItemDisplay[ma2 !ID]: %NAME%
+ItemDisplay[ma2 ID]: %NAME% - Tier 4
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ Catch-All for Misc Items ▬▬▬▬▬                              ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
