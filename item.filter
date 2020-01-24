@@ -1126,19 +1126,19 @@ ItemDisplay[RARE !ETH CL7 WP5 (TABSK2>4 OR (TABSK2>2 AND CLSK0>1)) IAS>39]: %NAM
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ Identified Crafting Bases ▬▬▬▬▬                             ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-// Blood Bases (Blood weapon, gloves, boots, and belt are enabled by default.)
+// Blood Bases (Blood gloves, boots, and belt are enabled by default.)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG (vgl OR xvg OR uvg) ILVL>70]: %NAME%%RED%[Nef]%CONTINUE% //Blood Gloves (Nef)
 ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>70]: %NAME%%RED%[Eth]%CONTINUE% //Blood Boots (Eth)
 ItemDisplay[MAG (zmb OR umc) ILVL>70]: %NAME%%RED%[Tal]%CONTINUE% //Blood Belt (Tal)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-// Caster Bases
+// Caster Bases (Caster gloves, boots, and belt are enabled by default.)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG (lgl OR xlg OR ulg) ILVL>70]: %NAME%%PURPLE%[Ort]%CONTINUE% //Caster Gloves (Ort)
 ItemDisplay[MAG (lbt OR xlb OR ulb) ILVL>70]: %NAME%%PURPLE%[Thul]%CONTINUE% //Caster Boots (Thul)
 ItemDisplay[MAG (zvb OR uvc) ILVL>70]: %NAME%%PURPLE%[Ith]%CONTINUE% //Caster Belt (Ith)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-// Safety Bases
+// Safety Bases (Safety Monarchs are enabled by default.)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG uit ILVL>70]: %NAME%%GREEN%[Nef]%CONTINUE% //Safety Monarch (Nef)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
