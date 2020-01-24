@@ -5,8 +5,13 @@
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-// Last Updated: 2020-1-18
-// To Be Used with Patch: #17 - Tourmaline
+// Last Updated: 2020-1-24
+// To Be Used with Patch: #18 - Flint
+//╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
+//║ ///////////////////////////////////  ▬▬▬▬▬ WARNING ▬▬▬▬▬ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ║
+//╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
+// If you decide to enable any options, add any custom rules, or apply any sort of edit, please
+// make sure to turn off the "Auto Update" option for the filter in Path of Diablo's launcher.
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                       ▬▬▬▬▬ Notes ▬▬▬▬▬                                       ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -22,7 +27,7 @@
 // https://diablo2.diablowiki.net/Sockets
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Please leave any questions or feedback about this loot filter in the #lootfilter channel on
-// PoD's Discord. You can mention/ping me directly there. @spamrat
+// Path of Diablo's Discord. You can mention/ping me directly there. @spamrat
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -89,6 +94,35 @@ ItemDisplay[GOLD>0]: %NAME%
 //ItemDisplay[gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc]: //Ignore Chipped Gems
 //ItemDisplay[gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf]: //Ignore Flawed Gems
 //ItemDisplay[gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku]: //Ignore Regular Gems
+//ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]: //Ignore Flawless Gems
+//ItemDisplay[gcv OR gfv OR gsv OR gzv]: //Ignore All Amethysts Except Perfect Amethysts
+//ItemDisplay[gcw OR gfw OR gsw OR glw]: //Ignore All Diamonds Except Perfect Diamonds
+//ItemDisplay[gcg OR gfg OR gsg OR glg]: //Ignore All Emeralds Except Perfect Emeralds
+//ItemDisplay[gcr OR gfr OR gsr OR glr]: //Ignore All Rubies Except Perfect Rubies
+//ItemDisplay[gcb OR gfb OR gsb OR glb]: //Ignore All Sapphires Except Perfect Sapphires
+//ItemDisplay[gcy OR gfy OR gsy OR gly]: //Ignore All Topazes Except Perfect Topazes
+//ItemDisplay[skc OR skf OR sku OR skl]: //Ignore All Skulls Except Perfect Skulls
+//ItemDisplay[gcv]: //Ignore Chipped Amethysts
+//ItemDisplay[gcw]: //Ignore Chipped Diamonds
+//ItemDisplay[gcg]: //Ignore Chipped Emeralds
+//ItemDisplay[gcr]: //Ignore Chipped Rubies
+//ItemDisplay[gcb]: //Ignore Chipped Sapphires
+//ItemDisplay[gcy]: //Ignore Chipped Topazes
+//ItemDisplay[skc]: //Ignore Chipped Skulls
+//ItemDisplay[gfv]: //Ignore Flawed Amethysts
+//ItemDisplay[gfw]: //Ignore Flawed Diamonds
+//ItemDisplay[gfg]: //Ignore Flawed Emeralds
+//ItemDisplay[gfr]: //Ignore Flawed Rubies
+//ItemDisplay[gfb]: //Ignore Flawed Sapphires
+//ItemDisplay[gfy]: //Ignore Flawed Topazes
+//ItemDisplay[skf]: //Ignore Flawed Skulls
+//ItemDisplay[gsv]: //Ignore Normal Amethysts
+//ItemDisplay[gsw]: //Ignore Normal Diamonds
+//ItemDisplay[gsg]: //Ignore Normal Emeralds
+//ItemDisplay[gsr]: //Ignore Normal Rubies
+//ItemDisplay[gsb]: //Ignore Normal Sapphires
+//ItemDisplay[gsy]: //Ignore Normal Topazes
+//ItemDisplay[sku]: //Ignore Normal Skulls
 //ItemDisplay[gzv]: //Ignore Flawless Amethyst
 //ItemDisplay[glw]: //Ignore Flawless Diamond
 //ItemDisplay[glg]: //Ignore Flawless Emerald
@@ -800,8 +834,9 @@ ItemDisplay[MAG !ID !ETH EQ7]: %BLUE%%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // Matched rules will add a tag for the rune required by the recipe in a color matching the p.gem
 // used by the recipe. Rings and Amulets will not have this tag, instead they will have orange
-// brackets around the item level when item level 71+ for rings or in the case of amulets, when the
-// item level and character level are right enough to attempt to craft a +2 class skills amulet.
+// brackets around the item level when the item level is 71+ for rings or in the case of amulets,
+// when the item and character levels are in the right proportion to attempt to craft a +2 class
+// skills amulet.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Blood Bases
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1092,19 +1127,19 @@ ItemDisplay[RARE !ETH CL7 WP5 (TABSK2>4 OR (TABSK2>2 AND CLSK0>1)) IAS>39]: %NAM
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ Identified Crafting Bases ▬▬▬▬▬                             ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-// Blood Bases (Blood weapon, gloves, boots, and belt are enabled by default.)
+// Blood Bases (Blood gloves, boots, and belt are enabled by default.)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG (vgl OR xvg OR uvg) ILVL>70]: %NAME%%RED%[Nef]%CONTINUE% //Blood Gloves (Nef)
 ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>70]: %NAME%%RED%[Eth]%CONTINUE% //Blood Boots (Eth)
 ItemDisplay[MAG (zmb OR umc) ILVL>70]: %NAME%%RED%[Tal]%CONTINUE% //Blood Belt (Tal)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-// Caster Bases
+// Caster Bases (Caster gloves, boots, and belt are enabled by default.)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG (lgl OR xlg OR ulg) ILVL>70]: %NAME%%PURPLE%[Ort]%CONTINUE% //Caster Gloves (Ort)
 ItemDisplay[MAG (lbt OR xlb OR ulb) ILVL>70]: %NAME%%PURPLE%[Thul]%CONTINUE% //Caster Boots (Thul)
 ItemDisplay[MAG (zvb OR uvc) ILVL>70]: %NAME%%PURPLE%[Ith]%CONTINUE% //Caster Belt (Ith)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-// Safety Bases
+// Safety Bases (Safety Monarchs are enabled by default.)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG uit ILVL>70]: %NAME%%GREEN%[Nef]%CONTINUE% //Safety Monarch (Nef)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
