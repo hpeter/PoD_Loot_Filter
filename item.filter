@@ -5,7 +5,7 @@
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-// Last Updated: 2020-1-24
+// Last Updated: 2020-1-29
 // To Be Used with Patch: #18 - Flint
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║ ///////////////////////////////////  ▬▬▬▬▬ WARNING ▬▬▬▬▬ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ║
@@ -606,7 +606,7 @@ ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (spl OR xpl OR upl)]: //Ignore Splint Mail, Russet Armor, and Balrog Skin [Medium]
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (fld OR xld OR uld)]: //Ignore Field Plate, Sharktooth, and Kraken Shell [Medium]
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (gth OR xth OR uth)]: //Ignore Gothic Plate, Embossed Plate, and Lacquered Plate [Medium]
-//ItemDisplay[(NMAG OR (RARE AND !ID)) (aar OR xar OR uar)]: //Ignore Ancient Armor, Ornate Armor, and Sacred Armor [Medium]
+//ItemDisplay[(NMAG OR (RARE AND !ID)) (aar OR xar OR (ELT AND uar))]: //Ignore Ancient Armor, Ornate Armor, and Sacred Armor [Medium]
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (scl OR xcl OR ucl)]: //Ignore Scale Mail, Tigulated Mail, and Loricated Mail [Heavy]
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (plt OR xlt OR ult)]: //Ignore Plate Mail, Templar Coat, and Hellforge Plate [Heavy]
 //ItemDisplay[(NMAG OR (RARE AND !ID)) (ful OR xul OR uul)]: //Ignore Full Plate, Chaos Armor, and Shadow Plate [Heavy]
@@ -978,7 +978,7 @@ ItemDisplay[NMAG !ETH !SUP DEF<450 (uui OR uea OR ula OR utu)]: //Dusk Shroud, W
 ItemDisplay[NMAG !ETH !SUP DEF<475 (ung OR ucl OR urs OR uhn)]: //Diamond Mail, Loricated Mail, Great Hauberk, and Boneweave
 ItemDisplay[NMAG !ETH !SUP DEF<500 (upl OR utp OR uld OR ult)]: //Balrog Skin, Archon Plate, Kraken Shell, and Hellforge Plate
 ItemDisplay[NMAG !ETH !SUP DEF<525 (uth OR uul)]: //Lacquered Plate and Shadow Plate
-ItemDisplay[NMAG !ETH !SUP DEF<550 uar]: //Sacred Armor
+ItemDisplay[NMAG ELT !ETH !SUP DEF<550 uar]: //Sacred Armor
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // This is where magic and non-magical throwing weapons are ignored either based on character level
 // or outright based on the space they take up. Amazon javelins are always shown.
@@ -1003,7 +1003,8 @@ ItemDisplay[NMAG !ELT WP13 !(SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                           ▬▬▬▬▬ General Equipment Processing ▬▬▬▬▬                            ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[NMAG ETH]: %GRAY%E.%NAME%%CONTINUE%
+ItemDisplay[NMAG ETH (!CL3 OR (CL3 AND !(SOCK=0 OR SOCK=4)))]: %GRAY%E.%NAME%%CONTINUE%
+ItemDisplay[NMAG ETH CL3 (SOCK=0 OR SOCK=4)]: %GRAY%E.%RED%%NAME%%CONTINUE%
 ItemDisplay[NMAG !ETH]: %WHITE%%NAME%%CONTINUE%
 ItemDisplay[MAG]: %BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%
@@ -1042,35 +1043,36 @@ ItemDisplay[MAG ID cm3 ((MANA>29 OR RES>8 OR ITEMSTAT39>20 OR ITEMSTAT41>20 OR I
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                              ▬▬▬▬▬ Rerollable Small Charms ▬▬▬▬▬                              ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-// White: 33-35 The prefix for All Resistances becomes available.
-// Gold: 47     All high end resistance prefixes are available, all high end elemental damage
+// Gray: 33-35	The prefix for All Resistances becomes available.
+// Yellow: 47	All high end resistance prefixes are available, all high end elemental damage
 //              suffixes are available, and the high end life and MF suffixes just become available.
-// Blue: 48-56  Only two new prefixes are added at level 48, which includes the high end mana
+// Blue: 48-56	Only two new prefixes are added at level 48, which includes the high end mana
 //              prefix. No new affixes are added till level 57.
-// Gold: 91+    All high end elemental damage prefixes become available. All affixes for small
+// Green: 91+	All high end elemental damage prefixes become available. All affixes for small
 //              charms are available at this point.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[MAG cm1 (ILVL>32 AND ILVL<36)]:%NAME%%WHITE%[R][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm1 (ILVL>47 AND ILVL<57)]:%NAME%%WHITE%[%BLUE%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm1 (ILVL=47 OR ILVL>90)]:%NAME%%WHITE%[%GOLD%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm1 (ILVL>32 AND ILVL<36)]: %NAME%%WHITE%[%GRAY%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm1 (ILVL>47 AND ILVL<57)]: %NAME%%WHITE%[%BLUE%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm1 ILVL=47]: %NAME%%WHITE%[%YELLOW%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm1 ILVL>90]: %NAME%%WHITE%[%GREEN%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                              ▬▬▬▬▬ Rerollable Grand Charms ▬▬▬▬▬                              ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-// Gray: 35-36  The All Resistances +13%-15% prefix becomes available at level 35. No new prefix is
+// Gray: 35-36	The All Resistances +13%-15% prefix becomes available at level 35. No new prefix is
 //              added till level 37.
-// Gray: 50-54  All skill tab prefixes are available at level 50. This range offers the best chance
+// White: 50-54	All skill tab prefixes are available at level 50. This range offers the best chance
 //              to roll a skill tab prefix, albeit not by much.
-// Blue: 61-66  The life +31-35 suffix is added.
-// White: 71-74  The max damage +3-4 suffix is added.
-// Blue: 77-90	The first part of the high end life suffix is added. (Life +36-40)
-// Gold: 91+	The last part of the high end life suffix is added. (Life +41-45)
+// Yellow:61-66	The life +31-35 suffix is added.
+// Blue: 71-74	The max damage +3-4 suffix is added.
+// Orange:77-90	The first part of the high end life suffix is added. (Life +36-40)
+// Green: 91+	The last part of the high end life suffix is added. (Life +41-45)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[MAG cm3 (ILVL>34 AND ILVL<37)]: %NAME%%WHITE%[%GRAY%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %NAME%%WHITE%[%GRAY%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm3 (ILVL>70 AND ILVL<75)]: %NAME%%WHITE%[R][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm3 (ILVL>60 AND ILVL<67)]: %NAME%%WHITE%[%BLUE%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm3 (ILVL>76 AND ILVL<91)]: %NAME%%WHITE%[%BLUE%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
-ItemDisplay[MAG cm3 ILVL>90]: %NAME%%WHITE%[%GOLD%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %NAME%%WHITE%[R][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm3 (ILVL>70 AND ILVL<75)]: %NAME%%WHITE%[%BLUE%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm3 (ILVL>60 AND ILVL<67)]: %NAME%%WHITE%[%YELLOW%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm3 (ILVL>76 AND ILVL<91)]: %NAME%%WHITE%[%ORANGE%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm3 ILVL>90]: %NAME%%WHITE%[%GREEN%R%WHITE%][%GRAY%Lv.%ILVL%%WHITE%]
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ End Processing - 1st Wave ▬▬▬▬▬                             ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
