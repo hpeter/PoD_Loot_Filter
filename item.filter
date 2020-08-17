@@ -359,7 +359,7 @@ ItemDisplay[!(WEAPON OR ARMOR OR aq2 OR cq2 OR cm1 OR cm2 OR cm3 OR rin OR amu O
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║      ▬▬▬▬▬ Runeworded Equipment (Priority to remove the need to use !RW in rules.) ▬▬▬▬▬      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[RW !ETH]: %WHITE%%NAME%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[RW !ETH]: %WHITE%%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 ItemDisplay[RW ETH]: %GRAY%E.%NAME%%WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                   ▬▬▬▬▬ [Optional] Rules for Ignoring Specific Items ▬▬▬▬▬                    ║
