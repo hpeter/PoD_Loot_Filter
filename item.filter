@@ -5,7 +5,7 @@
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
-// Last Updated: 2020-03-24
+// Last Updated: 2020-03-27
 // To Be Used with Patch: #20 - Perlite
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                     ▬▬▬▬▬ Keyword Order Reference for Rules Listed ▬▬▬▬▬                      ║
@@ -50,7 +50,7 @@ ItemDisplay[hdm]: %NAME% //Horadric Malus
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[ass]: %NAME% //Book of Skill
 ItemDisplay[tr1]: %NAME% //Horadric Scroll
-ItemDisplay[box]: %NAME%{Exc Armor: Ko+Lem+P.Diamond%NL%Exc Weapon: Lum+Pul+P.Emerald%NL%Norm Armor: Tal+Shael+P.Diamond%NL%Norm Weapon: Ral+Sol+P.Emerald%NL%%GOLD%Unique Upgrade Recipes%WHITE%%NL%%NL%Exc Armor: Ko+Pul+P.Amethyst%NL%Exc Weapon: Fal+Um+P.Sapphire%NL%Norm Armor: Ral+Thul+P.Amethyst%NL%Norm Weapon: Ort+Amn+P.Sapphire%NL%%GOLD%Rare Upgrade Recipes%WHITE%%NL%%NL%Shield: Tal+Amn+P.Ruby%NL%Helm: Ral+Thul+P.Sapphire%NL%Body Armor: Tal+Thul+P.Topaz%NL%Weapon: Ral+Amn+P.Amethyst%NL%%GOLD%Socket Recipes%WHITE%} //Horadric Cube
+ItemDisplay[box]: %NAME% //Horadric Cube
 ItemDisplay[msf]: %NAME% //Staff of Kings
 ItemDisplay[vip]: %NAME% //Viper Amulet
 ItemDisplay[hst]: %NAME% //Horadric Staff
@@ -228,45 +228,48 @@ ItemDisplay[GEMLEVEL>0]: %NAME%
 // Orange Rune Number Plus Map Notification: Mal, Ist, Gul
 // Green Rune Number Plus Map Notification: Vex, Ohm, Lo, Sur, Ber, Jah, Cham, Zod
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[r01]: %ORANGE%El%GRAY%[1]%WHITE%%CONTINUE%
-ItemDisplay[r02]: %ORANGE%Eld%GRAY%[2]%WHITE%%CONTINUE%
-ItemDisplay[r03]: %ORANGE%Tir%GRAY%[3]%WHITE%{%PURPLE%Caster:%WHITE% Weapon + P.Amethyst + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Weapon + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r04]: %ORANGE%Nef%GRAY%[4]%WHITE%{%GREEN%Safety:%WHITE% Shield + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Helm + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Gloves + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Body + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r05]: %ORANGE%Eth%GRAY%[5]%WHITE%{%GREEN%Safety:%WHITE% Body + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Shield + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Boots + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Shield + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r06]: %ORANGE%Ith%GRAY%[6]%WHITE%{%GREEN%Safety:%WHITE% Helm + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Belt + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Shield + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Helm + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r07]: %ORANGE%Tal%GRAY%[7]%WHITE%{%GREEN%Safety:%WHITE% Belt + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Body + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Belt + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Belt + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r08]: %ORANGE%Ral%GRAY%[8]%WHITE%{%GOLD%Add any Flawed Gem to Repair and Recharge%WHITE%%NL%%GOLD%Use with the Horadric Cube to Repair Armor%WHITE%%NL%%NL%%GREEN%Safety:%WHITE% Gloves + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Amulet + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Helm + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Boots + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r09]: %ORANGE%Ort%GRAY%[9]%WHITE%{%GOLD%Add any Chipped Gem to Repair and Recharge%WHITE%%NL%%GOLD%Use with the Horadric Cube to Repair Weapons%WHITE%%NL%%NL%%GREEN%Safety:%WHITE% Boots + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Gloves + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Weapon + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Gloves + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r10]: %ORANGE%Thul%GRAY%[10]%WHITE%{%GREEN%Safety:%WHITE% Amulet + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Boots + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Body + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Amulet + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r11]: %ORANGE%Amn%GRAY%[11]%WHITE%{%GREEN%Safety:%WHITE% Ring + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Ring + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Amulet + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Ring + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r12]: %ORANGE%Sol%GRAY%[12]%WHITE%{%GREEN%Safety:%WHITE% Weapon + P.Emerald + Magic Jewel%NL%%RED%Blood:%WHITE% Ring + P.Ruby + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r13]: %ORANGE%Shael%WHITE%[13]%CONTINUE%
-ItemDisplay[r14]: %ORANGE%Dol%WHITE%[14]%CONTINUE%
-ItemDisplay[r15]: %ORANGE%Hel%WHITE%[15]{%GOLD%to Remove All Items in an Item's Sockets%NL%%GOLD%Use with the Horadric Cube and a Scroll of Town Portal%WHITE%%NL%}%CONTINUE%
-ItemDisplay[r16]: %ORANGE%Io%WHITE%[16]%CONTINUE%
-ItemDisplay[r17]: %ORANGE%Lum%WHITE%[17]%CONTINUE%
-ItemDisplay[r18]: %ORANGE%Ko%WHITE%[18]%CONTINUE%
-ItemDisplay[r19]: %ORANGE%Fal%WHITE%[19]%CONTINUE%
-ItemDisplay[r20]: %ORANGE%Lem%YELLOW%[20]%WHITE%%CONTINUE%
-ItemDisplay[r21]: %ORANGE%Pul%YELLOW%[21]%WHITE%%CONTINUE%
-ItemDisplay[r22]: %ORANGE%Um%YELLOW%[22]%WHITE%%CONTINUE%
-ItemDisplay[r23]: %ORANGE%Mal[23]%WHITE%%CONTINUE%
-ItemDisplay[r24]: %ORANGE%Ist[24]%WHITE%%CONTINUE%
-ItemDisplay[r25]: %ORANGE%Gul[25]%WHITE%%CONTINUE%
-ItemDisplay[r26]: %ORANGE%Vex%GREEN%[26]%WHITE%%CONTINUE%
-ItemDisplay[r27]: %ORANGE%Ohm%GREEN%[27]%WHITE%%CONTINUE%
-ItemDisplay[r28]: %ORANGE%Lo%GREEN%[28]%WHITE%%CONTINUE%
-ItemDisplay[r29]: %ORANGE%Sur%GREEN%[29]%WHITE%%CONTINUE%
-ItemDisplay[r30]: %ORANGE%Ber%GREEN%[30]%WHITE%%CONTINUE%
-ItemDisplay[r31]: %ORANGE%Jah%GREEN%[31]%WHITE%%CONTINUE%
-ItemDisplay[r32]: %ORANGE%Cham%GREEN%[32]%WHITE%%CONTINUE%
-ItemDisplay[r33]: %ORANGE%Zod%GREEN%[33]%WHITE%%CONTINUE%
+ItemDisplay[RUNE>0 RUNE<13]: %ORANGE%%RUNENAME%%GRAY%[%RUNENUM%]%WHITE%%CONTINUE%
+ItemDisplay[RUNE>12 RUNE<20]: %ORANGE%%RUNENAME%%WHITE%[%RUNENUM%]%CONTINUE%
+ItemDisplay[RUNE>19 RUNE<23]: %ORANGE%%RUNENAME%%YELLOW%[%RUNENUM%]%WHITE%%CONTINUE%
+ItemDisplay[RUNE>22 RUNE<26]: %ORANGE%%RUNENAME%[%RUNENUM%]%WHITE%%CONTINUE%
+ItemDisplay[RUNE>25 RUNE<34]: %ORANGE%%RUNENAME%%GREEN%[%RUNENUM%]%WHITE%%CONTINUE%
+//ItemDisplay[r01]: %ORANGE%El%GRAY%[1]%WHITE%%CONTINUE%
+//ItemDisplay[r02]: %ORANGE%Eld%GRAY%[2]%WHITE%%CONTINUE%
+//ItemDisplay[r03]: %ORANGE%Tir%GRAY%[3]%WHITE%{%PURPLE%Caster:%WHITE% Weapon + P.Amethyst + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Weapon + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r04]: %ORANGE%Nef%GRAY%[4]%WHITE%{%GREEN%Safety:%WHITE% Shield + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Helm + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Gloves + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Body + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r05]: %ORANGE%Eth%GRAY%[5]%WHITE%{%GREEN%Safety:%WHITE% Body + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Shield + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Boots + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Shield + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r06]: %ORANGE%Ith%GRAY%[6]%WHITE%{%GREEN%Safety:%WHITE% Helm + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Belt + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Shield + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Helm + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r07]: %ORANGE%Tal%GRAY%[7]%WHITE%{%GREEN%Safety:%WHITE% Belt + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Body + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Belt + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Belt + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r08]: %ORANGE%Ral%GRAY%[8]%WHITE%{%GOLD%Add any Flawed Gem to Repair and Recharge%WHITE%%NL%%GOLD%Use with the Horadric Cube to Repair Armor%WHITE%%NL%%NL%%GREEN%Safety:%WHITE% Gloves + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Amulet + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Helm + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Boots + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r09]: %ORANGE%Ort%GRAY%[9]%WHITE%{%GOLD%Add any Chipped Gem to Repair and Recharge%WHITE%%NL%%GOLD%Use with the Horadric Cube to Repair Weapons%WHITE%%NL%%NL%%GREEN%Safety:%WHITE% Boots + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Gloves + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Weapon + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Gloves + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r10]: %ORANGE%Thul%GRAY%[10]%WHITE%{%GREEN%Safety:%WHITE% Amulet + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Boots + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Body + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Amulet + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r11]: %ORANGE%Amn%GRAY%[11]%WHITE%{%GREEN%Safety:%WHITE% Ring + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Ring + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Amulet + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Ring + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r12]: %ORANGE%Sol%GRAY%[12]%WHITE%{%GREEN%Safety:%WHITE% Weapon + P.Emerald + Magic Jewel%NL%%RED%Blood:%WHITE% Ring + P.Ruby + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r13]: %ORANGE%Shael%WHITE%[13]%CONTINUE%
+//ItemDisplay[r14]: %ORANGE%Dol%WHITE%[14]%CONTINUE%
+//ItemDisplay[r15]: %ORANGE%Hel%WHITE%[15]{%GOLD%to Remove All Items in an Item's Sockets%NL%%GOLD%Use with the Horadric Cube and a Scroll of Town Portal%WHITE%%NL%}%CONTINUE%
+//ItemDisplay[r16]: %ORANGE%Io%WHITE%[16]%CONTINUE%
+//ItemDisplay[r17]: %ORANGE%Lum%WHITE%[17]%CONTINUE%
+//ItemDisplay[r18]: %ORANGE%Ko%WHITE%[18]%CONTINUE%
+//ItemDisplay[r19]: %ORANGE%Fal%WHITE%[19]%CONTINUE%
+//ItemDisplay[r20]: %ORANGE%Lem%YELLOW%[20]%WHITE%%CONTINUE%
+//ItemDisplay[r21]: %ORANGE%Pul%YELLOW%[21]%WHITE%%CONTINUE%
+//ItemDisplay[r22]: %ORANGE%Um%YELLOW%[22]%WHITE%%CONTINUE%
+//ItemDisplay[r23]: %ORANGE%Mal[23]%WHITE%%CONTINUE%
+//ItemDisplay[r24]: %ORANGE%Ist[24]%WHITE%%CONTINUE%
+//ItemDisplay[r25]: %ORANGE%Gul[25]%WHITE%%CONTINUE%
+//ItemDisplay[r26]: %ORANGE%Vex%GREEN%[26]%WHITE%%CONTINUE%
+//ItemDisplay[r27]: %ORANGE%Ohm%GREEN%[27]%WHITE%%CONTINUE%
+//ItemDisplay[r28]: %ORANGE%Lo%GREEN%[28]%WHITE%%CONTINUE%
+//ItemDisplay[r29]: %ORANGE%Sur%GREEN%[29]%WHITE%%CONTINUE%
+//ItemDisplay[r30]: %ORANGE%Ber%GREEN%[30]%WHITE%%CONTINUE%
+//ItemDisplay[r31]: %ORANGE%Jah%GREEN%[31]%WHITE%%CONTINUE%
+//ItemDisplay[r32]: %ORANGE%Cham%GREEN%[32]%WHITE%%CONTINUE%
+//ItemDisplay[r33]: %ORANGE%Zod%GREEN%[33]%WHITE%%CONTINUE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Drop Notifications
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[RUNE>25]: %NAME%%MAP%%NOTIFY-GREEN%
-ItemDisplay[RUNE>22]: %NAME%%MAP%%NOTIFY-ORANGE%
-ItemDisplay[RUNE>19]: %NAME%%MAP%%NOTIFY-YELLOW%
+ItemDisplay[RUNE>19]: %NAME%%MAP%%NOTIFY-ORANGE%
 ItemDisplay[CLVL<80 RUNE>15]: %NAME%%MAP%%NOTIFY-ITEM%
 ItemDisplay[CLVL<70 RUNE>12]: %NAME%%MAP%%NOTIFY-ITEM%
 ItemDisplay[CLVL<60 RUNE>10]: %NAME%%MAP%%NOTIFY-ITEM%
@@ -1152,13 +1155,48 @@ ItemDisplay[ILVL>90 cm3 MAG]: %NAME%%WHITE%[%GREEN%R%WHITE%]
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                             ▬▬▬▬▬ Unique Drop Notifications ▬▬▬▬▬                             ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-// For the time being, all unidentified uniques that drop have a notification.
+// [Optional][Custom] To enable drop notifications for specific uniques, add or enable the rules
+// in this section and disable the rule that turns on notifications for all uniques.
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+//ItemDisplay[(rin OR amu OR jew) UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for all unique jewelry and jewels.
+//ItemDisplay[cm3 UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Gheed's Fortune
+//ItemDisplay[aq2 UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for unique arrows that drop.
+//ItemDisplay[cq2 UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for unique bolts that drop.
+//ItemDisplay[ELT UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for elite unique items.
+//ItemDisplay[EXC UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for exceptional unique items.
+//ItemDisplay[CLVL<80 NORM UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for normal unique items while under character level 80.
+//ItemDisplay[fla UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for The General's Tan Do Li Ga
+//ItemDisplay[mau UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Bonesnap
+//ItemDisplay[dgr UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Gull
+//ItemDisplay[hbw UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Witherstring
+//ItemDisplay[rxb UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Doomslinger
+//ItemDisplay[lbb UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Wizendraw
+//ItemDisplay[skp UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Tarnhelm
+//ItemDisplay[stu UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Twitchthroe
+//ItemDisplay[gth UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Rattlecage
+//ItemDisplay[gts UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for The Ward
+//ItemDisplay[mgl UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Chance Guards
+//ItemDisplay[tgl UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Magefist
+//ItemDisplay[hgl UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Frostburn
+//ItemDisplay[tbt UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Goblin Toe
+//ItemDisplay[tbl UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE% //Notification for Goldwrap
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+// [Optional] Give a drop notification for all unidentified uniques. Enabled by default.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[UNI !ID]: %MAP%%NOTIFY-GOLD%%NAME%%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                            ▬▬▬▬▬ Set Item Drop Notifications ▬▬▬▬▬                            ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-// For the time being, all unidentified set items that drop have a notification.
+// [Optional][Custom] To enable drop notifications for specific set items, add or enable the rules
+// in this section and disable the rule that turns on notifications for all uniques.
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+//ItemDisplay[ILVL>25 amu SET !ID]: %MAP%%NOTIFY-GREEN%%NAME%%CONTINUE% //Notification for any set amulets drops that could be Tal Rasha's Adjucation
+//ItemDisplay[ELT SET !ID]: %MAP%%NOTIFY-GREEN%%NAME%%CONTINUE% //Notification for any elite set item.
+//ItemDisplay[EXC SET !ID]: %MAP%%NOTIFY-GREEN%%NAME%%CONTINUE% //Notification for any exceptional set item.
+//ItemDisplay[CLVL<80 NORM SET !ID]: %MAP%%NOTIFY-GREEN%%NAME%%CONTINUE% //Notification for any normal set items while under character level 80.
+//ItemDisplay[ILVL>20 (amu OR crn OR tgl OR tbl) SET !ID]: %MAP%%NOTIFY-GREEN%%NAME%%CONTINUE% //Notification for any possible Iratha's Finery set items.
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+// [Optional] Give a drop notification for all unidentified set items. Enabled by default.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 ItemDisplay[SET !ID]: %MAP%%NOTIFY-GREEN%%NAME%%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -1490,13 +1528,13 @@ ItemDisplay[ILVL>25 ELT CL5 !(7xf OR 7cs) SOCK=0 SK277>2]: %NAME%%BLUE%[%WHITE%0
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // 3 Socket Claws (Chaos)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK277>2 SK274>2]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield\BoI+3]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>2]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[BoI+3]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK277>2 SK274>1]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield+3\BoI+2]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>1]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[BoI+2]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK277>2 SK274>0]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield+3\BoI+1]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>0]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[BoI+1]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-ItemDisplay[ELT CL5 SOCK=3 SK277>2]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield+3]%WHITE%{%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK277>2 SK274>2]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield\BoI+3]%WHITE%
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>2]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[BoI+3]%WHITE%
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK277>2 SK274>1]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield+3\BoI+2]%WHITE%
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>1]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[BoI+2]%WHITE%
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK277>2 SK274>0]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield+3\BoI+1]%WHITE%
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>0]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[BoI+1]%WHITE%
+ItemDisplay[ELT CL5 SOCK=3 SK277>2]: %NAME%%BLUE%[%GREEN%3%BLUE%]%GREEN%[Blade Shield+3]%WHITE%
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // 0 Socket Wands (White)
 //─────────────────────────────────────────────────────────────────────────────────────────────────
@@ -1665,6 +1703,35 @@ ItemDisplay[CLVL<9 PRICE>499 (CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR
 //║                                     ▬▬▬▬▬ Catch-All ▬▬▬▬▬                                     ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 ItemDisplay[]: %NAME%%WHITE%
+
+//╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
+//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
+//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
+//║█║                             Item Descriptions for Misc Items                              ║█║
+//╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
+//║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
+//╚═╩═══════════════════════════════════════════════════════════════════════════════════════════╩═╝
+// Display Socket, Unique Upgrade, and Rare Upgrade Recipes on the Horadric Cube
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[box]: {Exc Armor: Ko+Lem+P.Diamond%NL%Exc Weapon: Lum+Pul+P.Emerald%NL%Norm Armor: Tal+Shael+P.Diamond%NL%Norm Weapon: Ral+Sol+P.Emerald%NL%%GOLD%Unique Upgrade Recipes%WHITE%%NL%%NL%Exc Armor: Ko+Pul+P.Amethyst%NL%Exc Weapon: Fal+Um+P.Sapphire%NL%Norm Armor: Ral+Thul+P.Amethyst%NL%Norm Weapon: Ort+Amn+P.Sapphire%NL%%GOLD%Rare Upgrade Recipes%WHITE%%NL%%NL%Shield: Tal+Amn+P.Ruby%NL%Helm: Ral+Thul+P.Sapphire%NL%Body Armor: Tal+Thul+P.Topaz%NL%Weapon: Ral+Amn+P.Amethyst%NL%%GOLD%Socket Recipes%WHITE%}
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+// Craft Info, Repair/Recharge Info via the Horadric Cube, and Socket Cleaning Info on Runes
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[r03]: {%PURPLE%Caster:%WHITE% Weapon + P.Amethyst + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Weapon + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r04]: {%GREEN%Safety:%WHITE% Shield + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Helm + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Gloves + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Body + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r05]: {%GREEN%Safety:%WHITE% Body + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Shield + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Boots + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Shield + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r06]: {%GREEN%Safety:%WHITE% Helm + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Belt + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Shield + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Helm + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r07]: {%GREEN%Safety:%WHITE% Belt + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Body + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Belt + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Belt + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r08]: {%GOLD%Add any Flawed Gem to Repair and Recharge%WHITE%%NL%%GOLD%Use with the Horadric Cube to Repair Armor%WHITE%%NL%%NL%%GREEN%Safety:%WHITE% Gloves + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Amulet + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Helm + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Boots + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r09]: {%GOLD%Add any Chipped Gem to Repair and Recharge%WHITE%%NL%%GOLD%Use with the Horadric Cube to Repair Weapons%WHITE%%NL%%NL%%GREEN%Safety:%WHITE% Boots + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Gloves + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Weapon + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Gloves + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r10]: {%GREEN%Safety:%WHITE% Amulet + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Boots + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Body + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Amulet + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r11]: {%GREEN%Safety:%WHITE% Ring + P.Emerald + Magic Jewel%NL%%PURPLE%Caster:%WHITE% Ring + P.Amethyst + Magic Jewel%NL%%RED%Blood:%WHITE% Amulet + P.Ruby + Magic Jewel%NL%%BLUE%Hit Power:%WHITE% Ring + P.Sapphire + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r12]: {%GREEN%Safety:%WHITE% Weapon + P.Emerald + Magic Jewel%NL%%RED%Blood:%WHITE% Ring + P.Ruby + Magic Jewel%NL%%ORANGE%Craft Info%WHITE%%NL%}%CONTINUE%
+ItemDisplay[r15]: {%GOLD%to Remove All Items in an Item's Sockets%NL%%GOLD%Use with the Horadric Cube and a Scroll of Town Portal%WHITE%%NL%}%CONTINUE%
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+// Catch-All for Misc Items' Item Descriptions
+//─────────────────────────────────────────────────────────────────────────────────────────────────
+ItemDisplay[!(WEAPON OR ARMOR OR aq2 OR cq2 OR cm1 OR cm2 OR cm3 OR rin OR amu OR jew)]: {}
 //╔═╦═══════════════════════════════════════════════════════════════════════════════════════════╦═╗
 //║█║███████████████████████████████████████████████████████████████████████████████████████████║█║
 //╠═╬═══════════════════════════════════════════════════════════════════════════════════════════╬═╣
@@ -1675,8 +1742,8 @@ ItemDisplay[]: %NAME%%WHITE%
 // These rules are only used for setting item descriptions and will not be used to hide items,
 // change the displayed item name, or set any sort of notification.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[WP9 (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[WEAPON (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
+ItemDisplay[WP9 (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[WEAPON (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
 ItemDisplay[(qui OR lea OR hla OR stu OR brs OR ltp) (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(xui OR xea OR xla OR xtu OR xrs OR xtp) (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(uui OR uea OR ula OR utu OR urs OR utp) (RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%%NL%Armor Type: Light}
@@ -1691,7 +1758,7 @@ ItemDisplay[(RARE OR CRAFT OR SET OR UNI OR RW)]: {Item Level: %ILVL%}
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // Hit Power Bases
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[WP2 MAG]: {Eligible Hit Power Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%} //Hit Power Weapon (Tir)
+ItemDisplay[WP2 MAG]: {Eligible Hit Power Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%} //Hit Power Weapon (Tir)
 ItemDisplay[(fhl OR xhl OR uhl) MAG]: {Eligible Hit Power Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%} //Hit Power Helm (Ith)
 ItemDisplay[(fld OR xld OR uld) MAG]: {Eligible Hit Power Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Armor Type: Medium} //Hit Power Body Armor (Nef)
 ItemDisplay[(gts OR xts OR uts) MAG]: {Eligible Hit Power Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Shield Type: Medium} //Hit Power Shield (Eth)
@@ -1701,7 +1768,7 @@ ItemDisplay[(tbl OR ztb OR utc) MAG]: {Eligible Hit Power Crafting Base%NL%Craft
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Blood Bases
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[WP1 MAG]: {Eligible Blood Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%} //Blood Weapon (Ort)
+ItemDisplay[WP1 MAG]: {Eligible Blood Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%} //Blood Weapon (Ort)
 ItemDisplay[(hlm OR xlm OR ulm) MAG]: {Eligible Blood Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%} //Blood Helm (Ral)
 ItemDisplay[(plt OR xlt OR ult) MAG]: {Eligible Blood Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Armor Type: Heavy} //Blood Body Armor (Thul)
 ItemDisplay[(spk OR xpk OR upk) MAG]: {Eligible Blood Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Shield Type: Light} //Blood Shield (Ith)
@@ -1712,7 +1779,7 @@ ItemDisplay[(mbl OR zmb OR umc) MAG]: {Eligible Blood Crafting Base%NL%Craft Aff
 // Caster Bases
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // All eligible crafting bases for Caster weapons are also eligible for Hit Power weapons.
-ItemDisplay[(WP11 OR WP12 OR WP13) MAG]: {Eligible Hit Power and Caster Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%} //Caster Weapon (Tir)
+ItemDisplay[(WP11 OR WP12 OR WP13) MAG]: {Eligible Hit Power and Caster Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%} //Caster Weapon (Tir)
 ItemDisplay[(msk OR xsk OR usk) MAG]: {Eligible Caster Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%} //Caster Helm (Nef)
 ItemDisplay[(ltp OR xtp OR utp) MAG]: {Eligible Caster Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Armor Type: Light} //Caster Body Armor (Tal)
 ItemDisplay[(sml OR xml OR uml) MAG]: {Eligible Caster Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Shield Type: Light} //Caster Shield (Eth)
@@ -1722,7 +1789,7 @@ ItemDisplay[(vbl OR zvb OR uvc) MAG]: {Eligible Caster Crafting Base%NL%Craft Af
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Safety Bases
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[WP7 MAG]: {Eligible Safety Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%} //Safety Weapon (Sol)
+ItemDisplay[WP7 MAG]: {Eligible Safety Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%} //Safety Weapon (Sol)
 ItemDisplay[(crn OR xrn OR urn) MAG]: {Eligible Safety Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%} //Safety Helm (Ith)
 ItemDisplay[(brs OR xrs OR urs) MAG]: {Eligible Safety Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Armor Type: Light} //Safety Body Armor (Eth)
 ItemDisplay[(kit OR xit OR uit) MAG]: {Eligible Safety Crafting Base%NL%Craft Affix Level: %CRAFTALVL%%NL%Item Level: %ILVL%%NL%Shield Type: Light} //Safety Shield (Nef)
@@ -1736,8 +1803,8 @@ ItemDisplay[(amu OR rin) MAG]: {Eligible Crafting Base%NL%Craft Affix Level: %CR
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // End Item Description Processing for Magic Items
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[WP9 MAG]: {Item Level: %ILVL%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[WEAPON MAG]: {Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
+ItemDisplay[WP9 MAG]: {Item Level: %ILVL%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[WEAPON MAG]: {Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
 ItemDisplay[(qui OR lea OR hla OR stu OR brs OR ltp) MAG]: {Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(xui OR xea OR xla OR xtu OR xrs OR xtp) MAG]: {Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(uui OR uea OR ula OR utu OR urs OR utp) MAG]: {Item Level: %ILVL%%NL%Armor Type: Light}
@@ -1752,33 +1819,25 @@ ItemDisplay[MAG]: {Item Level: %ILVL%}
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 // Misc Runeword Base Descriptions
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(lsd OR flb OR mpi OR gax OR fla) !ETH SOCK=2]: {%GOLD%Strength:%WHITE% Amn Tir%NL%%GOLD%Steel:%WHITE% Tir El%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
+ItemDisplay[(lsd OR flb OR mpi OR gax OR fla) !ETH SOCK=2]: {%GOLD%Strength:%WHITE% Amn Tir%NL%%GOLD%Steel:%WHITE% Tir El%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
 ItemDisplay[(brs OR ltp) !ETH SOCK=2]: {%GOLD%Stealth:%WHITE% Tal Eth%NL%Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(chn OR spl OR fld OR gth) !ETH SOCK=2]: {%GOLD%Stealth:%WHITE% Tal Eth%NL%Item Level: %ILVL%%NL%Armor Type: Medium}
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Runeword Base Descriptions for the Runeword Bases with Skill Tags
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>0]: {%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[ELT CL5 SOCK=3 SK277>2]: {%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[WP12 SOCK=2 (SK74>2 OR SK83>2 OR SK84>2 OR SK92>2 OR SK93>2)]: {%GOLD%White:%WHITE% Dol Io%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[WP11 SOCK=2 (SK41>2 OR SK47>2 OR SK52>2)]: {%GOLD%Leaf:%WHITE% Tir Ral%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[WP11 SOCK=4 (SK40>2 OR SK49>2 OR SK52>2 OR SK58>2)]: {%GOLD%Memory:%WHITE% Lum Io Sol Eth%NL%%GOLD%Heart of the Oak:%WHITE% Ko Vex Pul Thul%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[(ob5 OR oba OR obf) SOCK=3 (SK48>2 OR SK62>2 OR SK64>2)]: {[L]%GOLD%Plague:%WHITE% Cham Fal Um%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
-//─────────────────────────────────────────────────────────────────────────────────────────────────
-//ItemDisplay[(lsd OR flb OR mpi OR gax OR fla) NMAG !RW !ETH SOCK=2]: {%GOLD%Strength:%WHITE% Amn Tir%NL%%GOLD%Steel:%WHITE% Tir El%NL%Item Level: %ILVL%}
-//ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) NMAG !RW !ETH SOCK=3 SK274>0]: {%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-//ItemDisplay[ELT CL5 NMAG !RW SOCK=3 SK277>2]: {%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%}
-//ItemDisplay[WP12 NMAG !RW SOCK=2 (SK74>2 OR SK83>2 OR SK84>2 OR SK92>2 OR SK93>2)]: {%GOLD%White:%WHITE% Dol Io%NL%Item Level: %ILVL%}
-//ItemDisplay[WP11 NMAG !RW SOCK=2 (SK41>2 OR SK47>2 OR SK52>2)]: {%GOLD%Leaf:%WHITE% Tir Ral%NL%Item Level: %ILVL%}
-//ItemDisplay[WP11 NMAG !RW SOCK=4 (SK40>2 OR SK49>2 OR SK52>2 OR SK58>2)]: {%GOLD%Memory:%WHITE% Lum Io Sol Eth%NL%%GOLD%Heart of the Oak:%WHITE% Ko Vex Pul Thul%NL%Item Level: %ILVL%}
-//ItemDisplay[(ob5 OR oba OR obf) NMAG !RW SOCK=3 (SK48>2 OR SK62>2 OR SK64>2)]: {[L]%GOLD%Plague:%WHITE% Cham Fal Um%NL%Item Level: %ILVL%}
+ItemDisplay[(7ar OR 7lw OR 7tw OR 7qr) !ETH SOCK=3 SK274>0]: {%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[ELT CL5 SOCK=3 SK277>2]: {%GOLD%Chaos:%WHITE% Fal Ohm Um%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[WP12 SOCK=2 (SK74>2 OR SK83>2 OR SK84>2 OR SK92>2 OR SK93>2)]: {%GOLD%White:%WHITE% Dol Io%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[WP11 SOCK=2 (SK41>2 OR SK47>2 OR SK52>2)]: {%GOLD%Leaf:%WHITE% Tir Ral%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[WP11 SOCK=4 (SK40>2 OR SK49>2 OR SK52>2 OR SK58>2)]: {%GOLD%Memory:%WHITE% Lum Io Sol Eth%NL%%GOLD%Heart of the Oak:%WHITE% Ko Vex Pul Thul%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[(ob5 OR oba OR obf) SOCK=3 (SK48>2 OR SK62>2 OR SK64>2)]: {[L]%GOLD%Plague:%WHITE% Cham Fal Um%NL%Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
 //─────────────────────────────────────────────────────────────────────────────────────────────────
 // Permanently show item level for all equipment, arrows, bolts, charms, jewelry, and jewels. While
 // this is enabled, the Item Level line is duplicated when viewing the extra info displayed by
 // holding Alt while mousing over the equipment when it is available.
 //─────────────────────────────────────────────────────────────────────────────────────────────────
-ItemDisplay[WP9]: {Item Level: %ILVL%%NL%Weapon Speed: %WPNSPD%}
-ItemDisplay[WEAPON]: {Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Weapon Speed: %WPNSPD%}
+ItemDisplay[WP9]: {Item Level: %ILVL%%NL%Base Weapon Speed: %WPNSPD%}
+ItemDisplay[WEAPON]: {Item Level: %ILVL%%NL%Weapon Range: %RANGE%%NL%Base Weapon Speed: %WPNSPD%}
 ItemDisplay[(qui OR lea OR hla OR stu OR brs OR ltp)]: {Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(xui OR xea OR xla OR xtu OR xrs OR xtp)]: {Item Level: %ILVL%%NL%Armor Type: Light}
 ItemDisplay[(uui OR uea OR ula OR utu OR urs OR utp)]: {Item Level: %ILVL%%NL%Armor Type: Light}
